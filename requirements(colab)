@@ -1,0 +1,5 @@
+!pip install -q stable-baselines3[extra] > /dev/null 2>&1
+!pip install -q gym-super-mario-bros > /dev/null 2>&1
+!pip install -q gym pyvirtualdisplay > /dev/null 2>&1
+!apt-get install -q -y xvfb python-opengl ffmpeg > /dev/null 2>&1
+!pip install git+https://github.com/tensorflow/docs > /dev/null 2>&1
